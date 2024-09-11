@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Program\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\LanguageGame\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B86004DE-3372-4EC2-9DB5-59AC86153389}|Program\\Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Program\\Program\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{B86004DE-3372-4EC2-9DB5-59AC86153389}|Program\\Program.vcxproj|C:\\Users\\Administrator\\Desktop\\LanguageGame\\Program\\Program\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B86004DE-3372-4EC2-9DB5-59AC86153389}|Program\\Program.vcxproj|solutionrelative:Program\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D786BBD-6AE6-4A7F-8DB3-263945A6AC0F}|Class1th(GetAsynKeyState)\\Class1th(GetAsynKeyState).vcxproj|C:\\Users\\Administrator\\Desktop\\LanguageGame\\Program\\Class1th(GetAsynKeyState)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D786BBD-6AE6-4A7F-8DB3-263945A6AC0F}|Class1th(GetAsynKeyState)\\Class1th(GetAsynKeyState).vcxproj|solutionrelative:Class1th(GetAsynKeyState)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +26,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\LanguageGame\\Program\\Class1th(GetAsynKeyState)\\Source.c",
+              "RelativeDocumentMoniker": "Class1th(GetAsynKeyState)\\Source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\LanguageGame\\Program\\Class1th(GetAsynKeyState)\\Source.c",
+              "RelativeToolTip": "Class1th(GetAsynKeyState)\\Source.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-11T12:14:45.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Program\\Program\\Source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\LanguageGame\\Program\\Program\\Source.c",
               "RelativeDocumentMoniker": "Program\\Source.c",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Program\\Program\\Source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\LanguageGame\\Program\\Program\\Source.c",
               "RelativeToolTip": "Program\\Source.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-09-10T11:13:28.853Z",
               "EditorCaption": ""

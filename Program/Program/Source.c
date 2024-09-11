@@ -1,55 +1,29 @@
 #include <stdio.h>
-#include <stdlib.h> //rand()
-#include <time.h> //rand()
+#include <Windows.h>
 
-void Shuffle(int array[], int size)
+void Position(int x, int y)
 {
-	for (int i = 0; i < size; i++)
-	{
-		int seed = rand() % size; //size가 10을 안 넘으므로 10이 넘는 값이 나올 수 없다.
+	//X와 Y축을 설정하는 구조체입니다. 
+	COORD position = { x,y };  //COORD는 구조체다. 
 
-		int temporary = array[seed];
-		array[seed] = array[i];
-
-		array[i] = temporary;
-	}
+	//콘솔 커서의 좌표를 설정하는 함수입니다.
+	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), position);
 }
+
 int main()
 {
-#pragma region 셔플 함수
-	//srand(time(NULL));
-	//int list[10] = { 1,2,3,4,5,6,7,8,9,10 };
-	//
-	//int size = sizeof(list) / sizeof(int);
-	//
-	//
-	//Shuffle(list, size);
-	//
-	//for (int i = 0; i < size; i++)
-	//{
-	//	printf("list[%d]의 값 : %d\n", i, list[i]);
-	//}
-	//
-	//return 0;
-#pragma endregion
-
-#pragma region 포인터 배열
-
-	const char * dialog[3];
-
-	dialog[0] = "안녕하세요?";
-	dialog[1] = "누구신가요?";
-	dialog[2] = "탐정입니다.";
-
-	for (int i = 0; i < 3; i++)
+	while (1)
 	{
-		printf("%s\n", dialog[i]); //%s 문자열을 그대로 출력해줌
+		Position(10, 10);
+		printf("☆");
+
+		Position(5, 5);
+		printf("★");
+
+		system("cls"); //화면을 지우는 것 이로 인해 화면을 지웠다 그렸다를 반복
+
+		
 	}
-
-
-
-#pragma endregion
-
-
-
+	
+	return 0;
 }
